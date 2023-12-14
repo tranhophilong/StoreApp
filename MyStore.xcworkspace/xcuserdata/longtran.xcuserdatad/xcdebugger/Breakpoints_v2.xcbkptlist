@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FBFA543D-910B-4083-A361-F142913C8ACF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17A63D6F-E496-4607-8649-4C5D99456A7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyStore/Views/HomeView/NewArrivalsCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "NewArrivalsCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "17A63D6F-E496-4607-8649-4C5D99456A7A - 603b6b061c219c99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.NewArrivalsCollectionViewCell.lblTitle.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/NewArrivalsCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "17A63D6F-E496-4607-8649-4C5D99456A7A - 2484c1a6146a788d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.NewArrivalsCollectionViewCell.lblTitle.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/NewArrivalsCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "17A63D6F-E496-4607-8649-4C5D99456A7A - c8f6515fc816679c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.NewArrivalsCollectionViewCell.lblTitle.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/NewArrivalsCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "17A63D6F-E496-4607-8649-4C5D99456A7A - 7c86d040bceeb8b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.NewArrivalsCollectionViewCell.lblTitle.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/NewArrivalsCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "17A63D6F-E496-4607-8649-4C5D99456A7A - ce9b906300edf430"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.NewArrivalsCollectionViewCell.init(frame: __C.CGRect) -&gt; MyStore.NewArrivalsCollectionViewCell"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/NewArrivalsCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "17A63D6F-E496-4607-8649-4C5D99456A7A - ae6583ec4fd38855"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.NewArrivalsCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MyStore.NewArrivalsCollectionViewCell&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/NewArrivalsCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0256D5C8-F569-4280-8DC2-CB7601202557"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "FilterViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - bb463301f84d0047"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.backView.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - 8674433433cef073"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.backView.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - 6858534a2c70e444"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.backView.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - e5f29b70216bec53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.backView.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - 1e07a299aaab25f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MyStore.FilterViewController"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - b80f60c9ff4c9e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MyStore.FilterViewController&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - 53056543a40b0c0e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.collectionView.getter : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - 74ccf4dab0a11c3a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.collectionView.setter : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - 6bdfb98d0747980b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.collectionView.modify : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - 2b597c334f93d3b8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.collectionView.modify : Swift.Optional&lt;__C.UICollectionView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - 1e07a299aaab25f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MyStore.FilterViewController"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "0256D5C8-F569-4280-8DC2-CB7601202557 - b80f60c9ff4c9e54"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyStore.FilterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MyStore.FilterViewController&gt;"
+                  moduleName = "MyStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/longtran/Desktop/LearnIos/MyStore/MyStore/Views/HomeView/SearchView/FilterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

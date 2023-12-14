@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ThumnailCollectionViewCell" id="aRS-af-rOB" customClass="ThumnailCollectionViewCell" customModule="MyStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="63" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="BVa-kT-mdt">
+                <rect key="frame" x="0.0" y="0.0" width="63" height="75"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVO-74-Ycs">
+                        <rect key="frame" x="0.0" y="0.0" width="63" height="75"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fCw-Ia-73f">
+                                <rect key="frame" x="4" y="4" width="55" height="67"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S87-sz-D4P">
+                                        <rect key="frame" x="5" y="5" width="45" height="57"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="bgThumnail"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="S87-sz-D4P" secondAttribute="trailing" constant="5" id="8rs-te-hrG"/>
+                                    <constraint firstItem="S87-sz-D4P" firstAttribute="top" secondItem="fCw-Ia-73f" secondAttribute="top" constant="5" id="Hbu-jl-yFM"/>
+                                    <constraint firstItem="S87-sz-D4P" firstAttribute="leading" secondItem="fCw-Ia-73f" secondAttribute="leading" constant="5" id="cbs-lg-EGa"/>
+                                    <constraint firstAttribute="bottom" secondItem="S87-sz-D4P" secondAttribute="bottom" constant="5" id="dAo-1i-qEu"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fCw-Ia-73f" firstAttribute="leading" secondItem="rVO-74-Ycs" secondAttribute="leading" constant="4" id="8Fw-oi-ezr"/>
+                            <constraint firstAttribute="trailing" secondItem="fCw-Ia-73f" secondAttribute="trailing" constant="4" id="Ac0-a4-J6x"/>
+                            <constraint firstItem="fCw-Ia-73f" firstAttribute="top" secondItem="rVO-74-Ycs" secondAttribute="top" constant="4" id="khI-Ey-cnN"/>
+                            <constraint firstAttribute="bottom" secondItem="fCw-Ia-73f" secondAttribute="bottom" constant="4" id="rAQ-9K-AhJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="rVO-74-Ycs" secondAttribute="bottom" id="4Se-3A-qt8"/>
+                    <constraint firstAttribute="trailing" secondItem="rVO-74-Ycs" secondAttribute="trailing" id="Ksy-UW-xnB"/>
+                    <constraint firstItem="rVO-74-Ycs" firstAttribute="top" secondItem="BVa-kT-mdt" secondAttribute="top" id="f8X-V7-eAi"/>
+                    <constraint firstItem="rVO-74-Ycs" firstAttribute="leading" secondItem="BVa-kT-mdt" secondAttribute="leading" id="rmI-fZ-sYl"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="63" height="75"/>
+            <connections>
+                <outlet property="imgThumnail" destination="S87-sz-D4P" id="w0g-wa-PQt"/>
+            </connections>
+            <point key="canvasLocation" x="6707.6335877862593" y="-437.67605633802822"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="bgThumnail">
+            <color red="0.92500001192092896" green="0.92900002002716064" blue="0.87099999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

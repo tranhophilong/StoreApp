@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopUpErrorPhoneNumber" customModule="MyStore" customModuleProvider="target">
+            <connections>
+                <outlet property="backView" destination="iaf-zI-CzR" id="iAg-78-h8s"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iaf-zI-CzR" userLabel="BackView">
+                    <rect key="frame" x="0.0" y="0.0" width="422" height="852"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.1232441604" green="0.1232441604" blue="0.1232441604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FFh-H0-K7R" userLabel="ContentView">
+                    <rect key="frame" x="16" y="350.66666666666669" width="361" height="151"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ROB-3g-MIx">
+                            <rect key="frame" x="31.666666666666657" y="33.000000000000007" width="298" height="84.666666666666686"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the correct phone number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgJ-Un-naQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="298" height="20.333333333333332"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9B-XB-Z2b" customClass="CustommButton" customModule="MyStore" customModuleProvider="target">
+                                    <rect key="frame" x="10" y="50.333333333333314" width="278" height="34.333333333333343"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="ok"/>
+                                    <connections>
+                                        <action selector="dismiss:" destination="-1" eventType="touchUpInside" id="AXy-Dc-IT9"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="G9B-XB-Z2b" secondAttribute="trailing" constant="10" id="Hr3-eu-fVY"/>
+                                <constraint firstItem="G9B-XB-Z2b" firstAttribute="leading" secondItem="ROB-3g-MIx" secondAttribute="leading" constant="10" id="om0-Xf-uvQ"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="151" id="dfQ-zD-8Lm"/>
+                        <constraint firstItem="ROB-3g-MIx" firstAttribute="centerY" secondItem="FFh-H0-K7R" secondAttribute="centerY" id="oK6-4G-yjv"/>
+                        <constraint firstAttribute="width" constant="361" id="xag-Oa-F8S"/>
+                        <constraint firstItem="ROB-3g-MIx" firstAttribute="centerX" secondItem="FFh-H0-K7R" secondAttribute="centerX" id="y2w-LY-I2X"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="FFh-H0-K7R" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Tr9-8D-a2E"/>
+                <constraint firstItem="FFh-H0-K7R" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="oFB-Ow-m9s"/>
+            </constraints>
+            <point key="canvasLocation" x="171.75572519083968" y="-15.492957746478874"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
